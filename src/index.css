@@ -1,0 +1,69 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+a {
+  text-decoration: none;
+  color: rgb(18, 46, 202);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+#components-layout-demo-responsive .logo {
+  height: 32px;
+  margin: 16px;
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.ant-menu-light .ant-menu-item-active {
+  background-color:  rgb(183, 243, 206) !important;
+}
+
+:where(.css-dev-only-do-not-override-ixblex).ant-menu-light .ant-menu-item-selected {
+  color: #001529 !important;
+  background-color: rgb(7, 198, 80) !important;
+}
+.profile {
+  height: 64px;
+  color: #0b0b0b;
+  text-align: center;
+  background-color: rgb(7, 198, 80);
+
+  align-items: center !important;
+}
+.ant-layout-sider-children {
+  background-color: #ffffff;
+}
+
+#sidebar .profile svg {
+  height: 35px;
+  width: 35px;
+  background: #cccccc;
+  border-radius: 50%;
+}
+element.style {
+  padding: 10px;
+  background: black;
+}
+ .ant-table-thead .ant-table-cell {
+  background-color: rgb(206, 206, 206) !important;
+  }
+
+header.ant-layout-header {
+  background-color: rgb(7, 198, 80) !important;
+}
+.ant-menu-overflow
+{
+  background-color: rgb(7, 198, 80) ;
+}

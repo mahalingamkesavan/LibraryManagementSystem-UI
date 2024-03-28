@@ -1,0 +1,16 @@
+
+  .site-layout-content {
+    min-height: 435px;
+    padding: 24px;
+}
+/* .ant-spin-container{
+  height: 80vh;
+} */
+.ant-layout-content
+{
+  height: 85vh;
+}
+.ant-menu-title-content
+{
+  font-weight: bolder;
+}
